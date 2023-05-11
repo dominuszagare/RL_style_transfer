@@ -1,0 +1,24 @@
+#if test_data_XY is positive then use references_to_test_0
+#if test_data_XY is negative then use references_to_test_1
+
+#calculate content preservation score
+def calculate_content_preservation_score(test_data_XY, references_to_test_0, references_to_test_1):
+    content_preservation_score_sum = 0
+    for i in range(0, len(test_data_XY[0])):
+        if test_data_XY[1][i] == 0:
+            content_preservation_score_sum += sentence_bleu(references_to_test_0[i], test_data_XY[0][i], weights=(1,0,0,0))
+        else:
+            content_preservation_score_sum += sentence_bleu(references_to_test_1[i], test_data_XY[0][i], weights=(1,0,0,0))
+    return content_preservation_score_sum/len(test_data_XY[0])
+
+#calculate BELU score
+def calculate_bleu_score(test_data_XY, references_to_test_0, references_to_test_1):
+    bleu_score_sum = 0
+    for i in range(0, len(test_data_XY[0])):
+        if test_data_XY[1][i] == 0:
+            bleu_score_sum += sentence_bleu(references_to_test_0[i], test_data_XY[0][i], smoothing_function=SmoothingFunction().method1)
+        else:
+            bleu_score_sum += sentence_bleu(references_to_test_1[i], test_data_XY[0][i], smoothing_function=SmoothingFunction().method1)
+    return bleu_score_sum/len(test_data_XY[0])
+
+print("BELU score: " + str(calculate_content_preservation_score(test_data_XY, references_to_test_0, references_to_test_1)))
