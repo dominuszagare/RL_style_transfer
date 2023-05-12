@@ -263,3 +263,4 @@ example
 /DualRLStyleTransfer/temp/
 /DualRLStyleTransfer/bloom—test
 /DualRLStyleTransfer/yelp_data/tsf_template
+checkpoint/
