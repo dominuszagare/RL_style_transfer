@@ -1,4 +1,4 @@
-docker run --gpus all --ipc=host -v /mnt/d/REPO-2/TextRL:/textRL --ulimit memlock=-1 --ulimit stack=67108864 -it -p 8888:8888 --name pytorch --rm nvcr.io/nvidia/pytorch:23.04-py3
+docker run --gpus all --ipc=host -v /mnt/d/LanguageTehnologies/TextRL:/textRL --workdir /textRL --ulimit memlock=-1 --ulimit stack=67108864 -it -p 8888:8888 --name pytorch --rm nvcr.io/nvidia/pytorch:23.04-py3
 
 jupyter notebook .
 

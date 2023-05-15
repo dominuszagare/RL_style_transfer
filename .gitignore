@@ -260,7 +260,10 @@ how2
 bloom—test
 example
 .Trash-0
-/DualRLStyleTransfer/temp/
+/DualRLStyleTransfer/tmp/
 /DualRLStyleTransfer/bloom—test
+/DualRLStyleTransfer/models
 /DualRLStyleTransfer/yelp_data/tsf_template
 checkpoint/
+tmp/
+/DualRLStyleTransfer/models
