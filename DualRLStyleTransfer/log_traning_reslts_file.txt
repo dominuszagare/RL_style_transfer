@@ -1,0 +1,74 @@
+batch_size: 10
+epochs: 5
+learning_rate: 0.0001
+train_positive_to_negative_dataX time: 44.7190899848938
+avg bleu score for positive to negative model: 0.8115607307543201
+sentiment acc for positive to negative model: 0.89
+
+batch_size: 1
+epochs: 15
+learning_rate: 1e-05batch_size: 1
+epochs: 15
+learning_rate: 1e-05
+train_positive_to_negative_dataX time: 972.4992160797119
+avg bleu score for positive to negative model: 0.8944678506755983
+sentiment acc for positive to negative model: 0.924
+
+batch_size: 5
+epochs: 20
+learning_rate: 1e-05
+train_negative_to_positive_dataX time: 317.5482749938965
+avg bleu score for negative to positive model: 0.617147717816891
+sentiment acc for negative to positive model: 0.5
+
+batch_size: 1
+epochs: 20
+learning_rate: 1e-05
+train_negative_to_positive_dataX time: 1423.3661782741547
+avg bleu score for negative to positive model: 0.8865880852532702
+sentiment acc for negative to positive model: 0.756
+
+batch_size: 1
+epochs: 25
+learning_rate: 1e-05
+train_positive_to_negative_dataX time: 1838.7465744018555
+avg bleu score for positive to negative model: 0.9473642125185292
+sentiment acc for positive to negative model: 0.936
+train_negative_to_positive_dataX time: 1972.722697019577
+avg bleu score for negative to positive model: 0.9363304075491704
+sentiment acc for negative to positive model: 0.754
+sentiment acc for negative to positive model 100 train data samples 0.56
+
+
+batch_size: 1
+epochs: 4
+learning_rate: 1e-05
+train_negative_to_positive_dataX time: 295.9777204990387
+avg bleu score for negative to positive model: 0.5384693168452217
+sentiment acc for negative to positive model: 0.364
+sentiment acc for positive to negative model: 0.83
+sentiment acc for negative to positive model: 0.33
+
+batch_size: 1
+epochs: 10
+learning_rate: 1e-05
+train_positive_to_negative_dataX time: 723.244425535202
+avg bleu score for positive to negative model: 0.8243156585299577
+sentiment acc for positive to negative model: 0.874
+train_negative_to_positive_dataX time: 728.6467137336731
+avg bleu score for negative to positive model: 0.6927734713372882
+sentiment acc for negative to positive model: 0.598
+sentiment acc for positive to negative model 100 train data samples: 0.86
+sentiment acc for negative to positive model 100 train data samples: 0.45
+
+batch_size: 1
+epochs: 15
+learning_rate: 1e-05
+train_positive_to_negative_dataX time: 2385.6190996170044
+avg bleu score for positive to negative model: 0.8990743992785218
+sentiment acc for positive to negative model: 0.918
+train_negative_to_positive_dataX time: 2428.772263765335
+avg bleu score for negative to positive model: 0.8284928974090618
+sentiment acc for negative to positive model: 0.718
+sentiment acc for positive to negative model 100 train data samples: 0.94
+sentiment acc for negative to positive model 100 train data samples: 0.52
