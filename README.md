@@ -5,10 +5,10 @@
 First we fine tune the model with the limited paralel data we have.
 In this case we are traning two separate models, one for translating from negative to positive and one for translating from positive to negative.
 
-Negative to positive
+- Negative to positive
 ![negative_to_positive](./neg_to_pos_traning2.png)
-Positive to negative
-![positive_to_negative](./pos_to_neg_traning2.png)
+- Positive to negative
+![positive_to_negative](./pos_to_neg_traning_2.png)
 
 ## Using reinforcement learning to improve the model further
 
